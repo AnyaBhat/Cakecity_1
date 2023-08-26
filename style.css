@@ -86,6 +86,7 @@ body {
   left: 0;
 }
 
+
 #Logo {
   position: relative;
   width: 45%;
@@ -339,7 +340,7 @@ body {
 }
 
 #poster2 .poster-box3 {
-  background-image: url("img/banner/b8.jpg");
+  background-image: url("img/banner/b18.jpg");
 
 }
 
@@ -353,15 +354,6 @@ body {
   font-weight: 800;
   font-size: 15px;
   color: #000;
-}
-
-.pro .normal2 {
-  border: 2px solid black;
-}
-
-.pro .normal2:hover {
-  background: #088178;
-  color: #fff;
 }
 
 footer {
@@ -437,15 +429,16 @@ footer .copyright {
     position: fixed;
     top: 0;
     right: -300px;
-    height: 500px;
+    height: 100pvh;
     width: 300px;
     background-color: #E3E6F3;
     box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
     padding: 70px 0 0 10px;
+    transition: 0.3s;
   }
-  /* #navbar active{
+  #navbar .active{
     right: 0px;
-  } */
+  }
   #navbar li {
     margin-bottom: 25px;
   }
@@ -454,10 +447,10 @@ footer .copyright {
     align-items: center;
   }
 
-  /* #mobile i{
+  #mobile i{
     color: #1a1a1a;
     font-size: 24px;
     padding-left: 20px;
-  } */
+  }
 
 }
