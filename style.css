@@ -86,7 +86,7 @@ body {
   left: 0;
 }
 
-
+/* navbar css */
 .nav {
   height: 50px;
   width: 100%;
@@ -130,8 +130,10 @@ body {
   display: none;
 }
 
+/* navbar css end */
 
 
+/* hero poster css */
 .hero {
   background-image: url("img/hero3.jpg");
 }
@@ -168,9 +170,17 @@ body {
   font-size: 15px;
 }
 
+#hero button:hover{
+  color:red;
+}
+
 .hero_about {
   background-image: url("img/about/a4.jpg");
 }
+
+/* hero poster css end */
+
+/* features css */
 
 #feature {
   display: flex;
@@ -206,7 +216,9 @@ body {
   color: #088178;
   background-color: #FFDDD2;
 }
+/* features css  end*/
 
+/* product css */
 #product1 {
   text-align: center;
 }
@@ -277,7 +289,10 @@ body {
   bottom: 20px;
   right: 10px;
 }
+/* product css end */
 
+
+/* discount poster css */
 #poster {
   display: flex;
   flex-direction: column;
@@ -310,7 +325,9 @@ body {
   background: #088178;
   color: #fff;
 }
+/* discount poster css end */
 
+/* last poster css */
 #poster2 {
   display: flex;
   justify-content: space-between;
@@ -323,7 +340,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background-image: url("img/banner/b7.jpg");
   min-width: 30%;
   height: 30vh;
   background-size: cover;
@@ -332,6 +348,9 @@ body {
   margin-bottom: 20px;
 }
 
+#poster2 .poster-box1 {
+  background-image: url("img/banner/b7.jpg");
+}
 #poster2 .poster-box2 {
   background-image: url("img/banner/b4.jpg");
 
@@ -417,7 +436,7 @@ footer .copyright {
   text-align: center;
 }
 
-@media (max-width:600px) {
+@media (max-width: 890px) {
 
   .section-p1{
     padding: 40px 40px;
@@ -442,7 +461,7 @@ footer .copyright {
     display: block;
     width: 25px;
     height: 10px;
-    border-top: 2px solid #eee;
+    border-top: 2px solid #232323;
   }
   .nav > .nav-links {
     position: absolute;
@@ -480,6 +499,25 @@ footer .copyright {
   #feature .fe-box{
     margin: 15px 15px;
   }
+
+  #product1 .pro-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    width: 20px;
+  }
+
+  #poster2{
+    padding: 0 2.5rem;
+    align-items: center;
+  }
+  #poster2 .poster-box{
+    min-width:18rem;
+    align-content: center;
+    width: 100%;
+  }
+
 
   .install{
 
