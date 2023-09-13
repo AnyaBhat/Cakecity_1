@@ -515,18 +515,6 @@ footer .copyright {
     flex-wrap: wrap;
     width: 20px;
   }
-
-  #poster2{
-    padding: 0 2.5rem;
-    align-items: center;
-  }
-  #poster2 .poster-box{
-    min-width:18rem;
-    align-content: center;
-    width: 100%;
-  }
-
-
   .install{
 
     overflow:hidden;
@@ -542,5 +530,18 @@ footer .copyright {
     height:100%;
     width:100%;
     position:absolute;
+  }
+}
+
+
+@media (max-width: 1040px){
+  #poster2{
+    padding: 0 2.5rem;
+    align-items: center;
+  }
+  #poster2 .poster-box{
+    min-width:18rem;
+    align-content: center;
+    width: 100%;
   }
 }
